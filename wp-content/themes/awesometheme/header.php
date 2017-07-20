@@ -23,6 +23,6 @@
 
 </head>
 
-<body>
+<body <?php body_class( $awesome_classes ); ?>>
 
     <?php wp_nav_menu(array('theme_location'=>'primary')); ?>

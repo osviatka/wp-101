@@ -13,7 +13,7 @@
 
                     <p><?php the_content(); ?></p>
 
-                    <h3><?php the_title(); ?></h3>
+
 
                     <hr>
 

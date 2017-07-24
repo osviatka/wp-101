@@ -6,15 +6,12 @@
 
             <?php
 
-            if (have_posts()):
+            if( have_posts() ):
 
-                while (have_posts()): the_post(); ?>
-
+                while( have_posts() ): the_post(); ?>
 
                     <p><?php the_content(); ?></p>
-
-                    <h3><?php the_title(); ?></h3>
-
+                    <hr>
                     <hr>
 
                 <?php endwhile;
@@ -22,6 +19,7 @@
             endif;
 
             ?>
+
         </div>
 
         <div class="col-xs-12 col-sm-4">

@@ -54,7 +54,7 @@ function awesome_widget_setup() {
 
     register_sidebar(
         array(
-            
+
         )
     );
 }

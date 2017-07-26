@@ -2,7 +2,20 @@
 
     <div class="row">
 
-        <div class="col-xs-12 col-sm-8">
+        <div class="col-xs-12">
+
+            <?php
+
+                $lastBlog = new WP_Query('type=post&posts_per_page=1');
+
+                if ($lastBlog->have_posts()):
+
+                    while ( $lastBlog->have_posts()) : $lastBlog->the_post();  ?>
+
+                        
+        </div>
+
+            <div class="col-xs-12 col-sm-8">
 
             <?php
 

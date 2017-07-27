@@ -38,6 +38,7 @@
             endif;
 
             //PRINT OTHER 2 POSTS NOT THE FIRST ONE
+            
 
 
             $lastBlog = new WP_Query('type=post&posts_per_page=2&offset=1');

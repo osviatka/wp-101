@@ -17,6 +17,7 @@
             </div>
 
         <?php else: ?>
+            
 
             <div class="col-xs-12">
                 <?php the_content(); ?>

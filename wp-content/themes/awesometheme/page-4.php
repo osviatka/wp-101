@@ -14,6 +14,7 @@
                     <p><?php the_content(); ?></p>
 
                     <h3><?php the_title(); ?></h3>
+                    <h3>awesome</h3>
 
                     <hr>
 
